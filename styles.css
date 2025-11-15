@@ -50,6 +50,15 @@ Cette partie s'occupe du menu
 
 /**
 
+Main
+
+**/
+.main {
+    display: flex;
+}
+
+/**
+
 Sidebar
 
 **/
@@ -67,4 +76,14 @@ Sidebar
 }
 .sidebar a:hover {
     background-color: #4e4e4e;
+}
+
+/**
+
+Content
+
+**/
+.content {
+    padding: 15px;
+    color: #f9f9f9;
 }
